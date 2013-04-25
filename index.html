@@ -1,116 +1,90 @@
 
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Template &middot; Bootstrap</title>
+    <title>pacer pcr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="a cheap and easily constructable open source thermocycler">
+    <meta name="author" content="kenny">
 
     <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
     <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="http://fortawesome.github.io/Font-Awesome/assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <style type="text/css">
-      body {
-        padding-top: 20px;
-        padding-bottom: 40px;
-      }
-
-      /* Custom container */
-      .container-narrow {
-        margin: 0 auto;
-        max-width: 700px;
-      }
-      .container-narrow > hr {
-        margin: 30px 0;
-      }
-
-      .jumbotron {
-        margin: 60px 0;
-        text-align: center;
-      }
-      .jumbotron h1 {
-        font-size: 72px;
-        line-height: 1;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
-
-      .marketing {
-        margin: 60px 0;
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
-      }
-    </style>
+    <link rel="stylesheet" href="font-awesome.min.css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <style>
+      .blue { color: #0088cc }
+      .btn-warning { text-shadow: 0 0 0 }
+      .accordion-group { border: 1px solid #faa732 }
+      .accordion-inner { border-top: 1px solid #faa732 }
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 768px;
+      }
+      body {  padding-top: 20px; 
+              padding-bottom: 40px; }
+      hr {  border-top: 1px dashed #faa732;
+            color: #fff;
+            background-color: #fff;
+            height: 1px; }
+    </style>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
   </head>
 
   <body>
 
-    <div class="container-narrow">
+    <div class="container">
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-        <h3 class="muted">Khare Lab</h3>
+        <h3 class="blue">Khare Lab</h3>
       </div>
 
       <hr>
 
-      <div class="jumbotron">
-        <h1>Super awesome <i class="icon-fire"></i> marketing speak!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <a class="btn btn-large btn-success" href="#">Sign up today</a>
+      <div class="hero-unit text-center">
+        <h2>Welcome to the Khare Laboratory!</h2>
+        <img src="reflect.png" class="img-rounded">
+        <img src="email.png" class="img-rounded">
+
       </div>
+      <div class="row text-center">
+        <div class="span6 offset1">
+          <p>We are pursuing a research program at the interface of computational and experimental biophysics, enzymology and molecular biology. We use computational protein design and directed (laboratory) evolution to understand the structural, biophysical and evolutionary bases of molecular recognition phenomena in protein function such as enzyme activity, specificity and conformational changes.</p>
 
-      <hr>
+          <p>We are located on the second floor in the Center for Integrative Proteomics Research on the Busch Campus of Rutgers University.</p>
 
-      <div class="row-fluid marketing">
-        <div class="span6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+          <br />
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-
-        <div class="span6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          <h4 class="text-info">OPENINGS</h4>
+          <p>Graduate: We are always looking for energetic, and highly motivated graduate students. If your background/interests are in chemistry, biochemistry, molecular biology, experimental biophysics, or computational, physical sciences (or some combination of the above), and you like to work in an interdisciplinary environment on exciting problems, stop by at my office (208 M Proteomics) or send an email to khare at chem dot rutgers dot edu</p>
         </div>
       </div>
 
+      <br />
+
       <hr>
 
-      <div class="footer">
-        <p>&copy; Company 2013</p>
-      </div>
+      <footer>
+        <p> This hamster is optional.  <img src="hamey.gif"></p>
+      </footer>
 
     </div> <!-- /container -->
 
+    
     <script src="http://twitter.github.io/bootstrap/assets/js/jquery.js"></script>
     <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
     <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-alert.js"></script>
@@ -125,5 +99,6 @@
     <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-carousel.js"></script>
     <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-typeahead.js"></script>
 
-  </body>
-</html>
+  
+
+</body></html>
