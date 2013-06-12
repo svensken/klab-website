@@ -150,7 +150,7 @@
           <table class="table">
             <tbody>  
               <tr> 
-                <td><img src="sagar.png" width="300"></td> <!-- photo -->
+                <td><img lazy-src="sagar.png" width="300"></td> <!-- photo -->
                 <td><strong>Sagar Khare</strong></td> <!-- name -->
               </tr>
             </tbody>
@@ -158,8 +158,81 @@
         </div>
       </div>
 
-
       <br />
+      <br />
+
+      <div class="row">
+        <div class="span8 offset2">
+          <div class="hero-unit text-center">
+            <h4>Lab Hike, Delaware Water Gap (June 2013)</h4>
+            <div id="myCarousel" class="carousel slide">  
+              <!-- Carousel items -->  
+              <div class="carousel-inner">
+
+                <div class="active item">
+                  <div class="row text-center" style="margin-left:0">
+                    <img src="hike/photo.png" style="height:488px">
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="row text-center" style="margin-left:0">
+                    <img lazy-src="hike/IMG_20130601_121244.png" style="height:488px">
+                  </div>  
+                </div>
+
+                <div class="item">
+                  <img lazy-src="hike/IMG_20130601_111639.jpg">
+                </div>  
+                <div class="item">
+                  <img lazy-src="hike/IMG_20130601_111819.jpg">
+                </div>  
+                <div class="item">
+                  <img lazy-src="hike/IMG_20130601_111905.jpg">
+                </div>  
+                <div class="item">
+                  <img lazy-src="hike/IMG_20130601_112612.jpg">
+                </div>                  
+                <div class="item">
+                  <img lazy-src="hike/IMG_20130601_122339.jpg">
+                </div>  
+                <div class="item">
+                  <img lazy-src="hike/IMG_20130601_125508.jpg">
+                </div>  
+                <div class="item">
+                  <img lazy-src="hike/IMG_20130601_125602.jpg">
+                </div>  
+                <div class="item">
+                  <img lazy-src="hike/IMG_20130601_140350.jpg">
+                </div>  
+                <div class="item">
+                  <div class="row text-center" style="margin-left:0">
+                    <img lazy-src="hike/photo1.png" style="height:488px">
+                  </div>  
+                </div>
+                <div class="item">
+                  <div class="row text-center" style="margin-left:0">
+                    <img lazy-src="hike/photo2.png" style="height:488px">
+                  </div>  
+                </div>
+                <div class="item">
+                  <div class="row text-center" style="margin-left:0">
+                    <img lazy-src="hike/photo3.png" style="height:488px">
+                  </div>  
+                </div>
+              </div>  
+              <div class="loading hide" style="position:absolute;top:50%;left:50%;">
+                <img src="gif-load.gif">
+              </div>
+              <!-- Carousel nav -->  
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>  
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
       <hr>
 
@@ -169,7 +242,7 @@
 
     </div> <!-- /container -->
 
-    
+
     <script src="http://twitter.github.io/bootstrap/assets/js/jquery.js"></script>
     <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
     <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-alert.js"></script>
@@ -184,6 +257,16 @@
     <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-carousel.js"></script>
     <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-typeahead.js"></script>
 
-  
+
+    <script src="lazy-bootstrap-carousel.js"></script>
+
+
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+    //Start carousel
+        $('.carousel').carousel({interval:false});
+      });
+    </script>
+
 
 </body></html>
